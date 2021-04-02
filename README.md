@@ -52,7 +52,7 @@
 
 5. JupyterLabsが使えることを確認します。ブラウザを起動して、http://localhost:8888 にアクセスします。
    Docker コンテナが正しく起動していれば、下の図のような JupyterLabs の画面が表示されます。
-   ![JupyterLabsランチャー画面](C:\works\ies\kb\resources\jupyterlabs_launcher.png)
+   ![JupyterLabsランチャー画面](resources/jupyterlabs_launcher.png)
 
 
 
