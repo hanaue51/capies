@@ -1,0 +1,13 @@
+version: "3"
+services:
+  notebook:
+    build: .
+    ports:
+      - "8888:8888"
+      - "5004:5004"
+      - "6006:6006"
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    volumes:
+      - ../work:/home/jovyan/work
+    command: start-notebook.sh --NotebookApp.token=
